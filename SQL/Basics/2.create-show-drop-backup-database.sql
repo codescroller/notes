@@ -3,11 +3,11 @@
 ===========
     - The "CREATE DATABASE" statement is used to create a new SQL database.
     - Syntax
-        CREATE DATABASE databasename;
+        CREATE DATABASE IF NOT EXISTS databasename;
 */
 
 -- Example to create the Database
-CREATE DATABASE college;
+CREATE DATABASE IF NOT EXISTS college;
 
 
 /*
@@ -29,7 +29,7 @@ SHOW DATABASES;
 */
 
 -- Example to drop the database
-DROP DATABASE college;
+DROP DATABASE IF EXISTS college;
 
 
 /*

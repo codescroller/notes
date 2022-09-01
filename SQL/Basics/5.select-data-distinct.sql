@@ -17,3 +17,18 @@ SELECT name, email FROM students;
 
 -- Example to select all column available from table
 SELECT * FROM students;
+
+/*
+-: The SELECT DISTINCT Statement
+===========
+    - The SELECT DISTINCT statement is used to return only distinct (different) values
+    - Syntax
+        SELECT DISTINCT column1, column2, ...
+        FROM table_name;
+*/
+
+-- Select Distinct name from the students table
+SELECT DISTINCT name FROM students;
+
+-- We can use DISTINCT on multiple column name
+SELECT DISTINCT name, email FROM students;

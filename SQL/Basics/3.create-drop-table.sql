@@ -12,7 +12,7 @@
 */
 
 -- Example To Create Table
-CREATE TABLE students (
+CREATE TABLE IF NOT EXISTS students (
     name VARCHAR(100),
     email VARCHAR(200),
     age INT,
@@ -23,7 +23,7 @@ CREATE TABLE students (
 -: Here:
 =====
     - The column parameters specify the names of the columns of the table.
-    -The datatype parameter specifies the type of data the column can hold (e.g. varchar, integer, date, etc.).
+    -The datatype parameter specifies the type of data the column can hold (e.g. varchar, int, date, etc.).
 */
 
 
@@ -85,5 +85,7 @@ TRUNCATE TABLE students;
     - It deletes all the data from the tables
 */
 
--- Example of TRUNCATE TABLE
+-- Example of DELETE TABLE
 DELETE FROM students;
+
+
