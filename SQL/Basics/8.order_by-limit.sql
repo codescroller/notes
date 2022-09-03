@@ -35,7 +35,7 @@ ORDER BY name DESC state ASC;
 -- Note : The above SQL statement selects all students from the "students" table, sorted by the "name" as Desending order and the "state" as Ascending order column. This means that it orders by name, but if some rows have the same name, it orders them by state:
 
 -- =====================---------
--- We can use this technique to use order by with number they refres to the column name
+-- We can use this technique to use order by with number they refres to the column name with the same sequence
 SELECT name, email
 FROM students 
 ORDER BY 1,2 DESC;
