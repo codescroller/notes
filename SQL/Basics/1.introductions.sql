@@ -13,7 +13,7 @@
 ==========
     - SQL keywords are NOT case sensitive: select is the same as SELECT and same as SeLeCT
     - But recomandation is to use command in UPPERCASE like SELECT instead of select
-    -Some database systems require a semicolon at the end of each SQL statement.
+    - Some database systems require a semicolon at the end of each SQL statement.
     - It is good practice to use it
 
 -: Some Important Commands
@@ -29,5 +29,4 @@
     - DROP TABLE - deletes a table
     - CREATE INDEX - creates an index (search key)
     - DROP INDEX - deletes an index
-
 */

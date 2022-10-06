@@ -34,10 +34,8 @@ public class variable {
     double pi = 3.14;
     public static void main(String args[]){
         // Create variables        
-        
     }
 }
-
 
 /* 
 -: Final Variables or Constant
@@ -88,7 +86,6 @@ class Constant {
 */
 
 
-
 /*
 -: Java Declare Multiple Variables
 ==============
@@ -110,8 +107,6 @@ class Constant {
         System.out.println(x + y + z);
 
 */
-
-
 
 
 /*
